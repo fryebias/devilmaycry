@@ -1,0 +1,48 @@
+a{
+    text-decoration: none;
+    padding:50px;
+    font-size: 20px;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: darkred;
+    overflow: hidden;
+} 
+
+@font-face {
+  font-family: MistralG;
+  src: url(OPTIMistral-Graff.otf);
+}
+
+.logo{
+    font-family: MistralG;
+    font-size:50px;
+    padding-right:100px;
+    padding-left: 10px;
+    color:white;
+text-shadow:
+            0 0 5px #fff, /* Inner white glow */
+            0 0 10px #e8233a, /* Outer glow layer 1 (magenta) */
+            0 0 20px #e8233a, /* Outer glow layer 2 (magenta) */
+            0 0 30px #e8233a; /* Outer glow layer 3 (magenta) */
+}
+
+body{
+
+  background-color: e;
+}
+
+.nav a:hover {
+  background-color: darkred;
+  color: black;
+}
+
+.reg{
+    color:#fff;
+
+}
+.reg a:hover{
+  color:gray;
+  background-color: #821500;
+}
