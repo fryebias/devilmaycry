@@ -46,3 +46,11 @@ body{
   color:gray;
   background-color: #821500;
 }
+button{
+  background-color: #e8233a;
+  color:#fff;
+  border:0px;
+  padding:10px;
+  text-decoration: none;
+  
+}
