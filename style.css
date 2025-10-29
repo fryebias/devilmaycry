@@ -33,7 +33,7 @@ body{
   background-color: e;
 }
 
-.nav a:hover {
+.nav:hover {
   background-color: darkred;
   color: black;
 }
@@ -47,10 +47,47 @@ body{
   background-color: #821500;
 }
 button{
-  background-color: #e8233a;
+  background-color:darkred;
   color:#fff;
   border:0px;
-  padding:10px;
+  padding:15px;
   text-decoration: none;
+  border-radius:12px;
+  display:block;
+  margin:auto;
+   transition: all 0.2s ease-out;
+}
+
+button:hover{
+background-color:rgb(103, 1, 1);
+padding:12px;
+ transition: all 0.2s ease-in;
+
+}
+.rose{
+  display:block;
+  margin:auto;
+  width: 461px;
   
+}
+.noworky{
+  background-color:black;
+}
+.text{
+      font-family: MistralG;
+    font-size: 70px;
+    color:white;
+text-shadow:
+            0 0 5px #fff, /* Inner white glow */
+            0 0 10px #e8233a, 
+            0 0 20px #e8233a, 
+            0 0 30px #e8233a; 
+  display:flex;
+  justify-content:center;
+}
+.sub{
+  color:whitesmoke;
+  font-size:20px;
+  display:flex;
+  justify-content: center;
 }
