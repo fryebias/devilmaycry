@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 a{
     text-decoration: none;
     padding:50px;
@@ -8,8 +10,18 @@ a{
     justify-content: space-around;
     background-color: darkred;
     overflow: hidden;
+    background-size: cover;
 } 
 
+body{
+  background-color:#080808;
+}
+
+marquee{
+  background-color:red;
+  font-size:20px;
+  color:white;
+}
 @font-face {
   font-family: MistralG;
   src: url(OPTIMistral-Graff.otf);
@@ -90,4 +102,41 @@ text-shadow:
   font-size:20px;
   display:flex;
   justify-content: center;
+}
+
+.eotm{
+  border-style:groove;
+  border-width: 9px;
+  border-color:rgb(227, 203, 67);
+ 
+}
+
+.employees img{
+  width:200px;
+  display:flex;
+  justify-content:flex-start;
+  justify-content: space-between;
+  margin:50px;
+}
+
+p{
+  color:white;
+}
+
+.logo:hover{
+color:black;
+}
+
+.bio{
+  font-family: Neutron;
+  font-size:30px;
+  text-shadow:
+            0 0 5px #fff, /* Inner white glow */
+            0 0 10px #e8233a, 
+            0 0 20px #e8233a, 
+            0 0 30px #e8233a; 
+}
+
+.nav:hover{
+  color:#080808;
 }
