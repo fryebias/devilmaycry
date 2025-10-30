@@ -128,6 +128,7 @@ color:black;
 }
 
 .bio{
+  margin-left: 5px; margin-top: 0;
   font-family: Neutron;
   font-size:30px;
   text-shadow:
@@ -139,4 +140,14 @@ color:black;
 
 .nav:hover{
   color:#080808;
+}
+
+.back{
+  border-radius:20px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  
+
 }
