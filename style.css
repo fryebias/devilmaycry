@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 a{
     text-decoration: none;
@@ -14,7 +15,7 @@ a{
 } 
 
 body{
-  background-color:#080808;
+  background-color:rgb(241, 241, 241);
 }
 
 marquee{
@@ -38,11 +39,6 @@ text-shadow:
             0 0 10px #e8233a, /* Outer glow layer 1 (magenta) */
             0 0 20px #e8233a, /* Outer glow layer 2 (magenta) */
             0 0 30px #e8233a; /* Outer glow layer 3 (magenta) */
-}
-
-body{
-
-  background-color: e;
 }
 
 .nav:hover {
@@ -119,10 +115,6 @@ text-shadow:
   margin:50px;
 }
 
-p{
-  color:white;
-}
-
 .logo:hover{
 color:black;
 }
@@ -151,3 +143,66 @@ color:black;
   
 
 }
+footer{
+  padding:20px;
+  background-color:#6e0606;
+  color:white;
+  text-decoration: none;
+  display:flex;
+  justify-content: center;
+}
+ html, body {
+        margin: 0;
+        padding: 0;
+    }
+
+    .banner{
+      width:1320px;
+    }
+
+  footer a{
+    color:white;
+  }
+  .bodies h1{
+    display:flex;
+    justify-content: center;
+    font-family: Quantico;
+
+  }
+
+  .bodies a{
+    padding:3px;
+  color:darkred;
+  }
+  .bodies{
+    font-size:18px;
+  }
+
+  
+
+  .bodies img{
+    width:400px;
+  }
+
+
+.side{
+  display: inline-block;
+  vertical-align: top;
+}
+
+body:before {
+content: " ";
+height: 100vh;
+width: 100vw;
+display: block;
+position: fixed; 
+top: 0; 
+left: 0; 
+z-index: 100;
+background-image: url(https://i.postimg.cc/sgGfqCdM/dmc1-intro.gif);
+background-size: cover;
+background-repeat: no-repeat;
+background-position:center;
+animation: yourAnimation 8s ease 1s 1 normal forwards;
+pointer-events: none;}
+@keyframes yourAnimation { 0.0%{ opacity: 1;} 75%{ opacity: 1; } 100%{ opacity: 0;} } 
