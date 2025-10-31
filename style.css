@@ -8,7 +8,7 @@ a{
 .nav{
     display: flex;
     justify-content: space-around;
-    background-color: darkred;
+    background-color: rgb(87, 4, 4);
     overflow: hidden;
     background-size: cover;
 } 
