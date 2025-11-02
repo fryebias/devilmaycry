@@ -7,12 +7,30 @@
       <link rel="stylesheet" href="style.css">
       <link rel="icon" href ="chara-icons-dante.png">
         <script src="script.js"></script>
+        <style>
+          body:before {
+content: " ";
+height: 100vh;
+width: 100vw;
+display: block;
+position: fixed; 
+top: 0; 
+left: 0; 
+z-index: 100;
+background-image: url(dmc1-intro.gif);
+background-size: cover;
+background-repeat: no-repeat;
+background-position:center;
+animation: yourAnimation 8s ease 1s 1 normal forwards;
+pointer-events: none;}
+@keyframes yourAnimation { 0.0%{ opacity: 1;} 75%{ opacity: 1; } 100%{ opacity: 0;}
+} 
+        </style>
 </head>
 <body>
     <div class="nav" id="welcome">
         <ul>
             <a class="logo" href = "index.html">Devil May Cry</a>
-            <a class= "reg" href="aboutus.html">About Us</a>
             <a class="reg" href="services.html">Services</a>
             <a class="reg" href="workers.html">Meet the Workers</a>
             <a class="reg" href="testimonials.html">Reviews</a>
@@ -24,20 +42,26 @@
 <div class="contain">
 <img class="banner" src="dmc5b.jpg">
 </div>
-<audio autoplay loop>
-  <source src="dnc.mp3" type="audio/mpeg">
-  </audio>
   <iframe src="dnc.mp3" allow="autoplay" style="display:none" id="iframeAudio">
+</iframe>
+  <iframe src="Devil May Cry_ Opening (mp3cut.net) (2).mp3" allow="autoplay" style="display:none" id="iframeAudio">
 </iframe>
 <div class="bodies">
 <h1>Demons got you down? We can help!</h1>
-<p> We at 'Devil May Cry' take your comfort <i>and money</i> as top priority! We are highly trained at vanquishing denizens of the dark, employing only the best tactics suited to your situation. Empusas terrorizing the city square? We've got it covered! Former priest turned angel-hybrid thing? We've got it covered! Twin brother who goes MIA for years and comes back to kill you after being enslaved by the King of Hell? We've done something like that. Navigate to our <a href="services.html"><b>services</b></a>tab to see the fully extent of our work. Otherwise, feel free to explore the site!</p>
- <div class="bodies">
-<img src="dant.jpg" alt="dante being cool">
- <p class="side">hi Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore officia consequatur quia eos ea autem veniam. Provident, aspernatur, enim voluptatem cum iure non id quaerat atque assumenda laboriosam dolorem perspiciatis.</p>
+<p> We at 'Devil May Cry' take your comfort <i>and money</i> as top priority! We are highly trained at vanquishing denizens of the dark, employing only the best tactics suited to your situation. Empusas terrorizing the city square? We've got it covered! Former priest turned angel-hybrid thing? We've got it covered! Twin brother who goes MIA for years and comes back to kill you after being enslaved by the King of Hell? We've done something like that. Navigate to our <a href="services.html"><b>services</b></a>tab to see the full extent of our work. Otherwise, feel free to explore the site!</p>
+<img class="dante" src="dant.jpg" alt="dante being cool">
 </div>
+ <p class="side">Established around the early 1990s (our good-for-nothing founder doesn't remember), we've been committed to provide the world with top notch solutions for their complex problems. Despite the name, we don't only handle demons! We are one emergency away from going bankrupt, and therefore very open to whatever you throw at us! </p>
+<p class="side" >Due to the current situation in Redgrave city, (aka, a new king of hell springing up in the middle of the city), our service booking is on hold! Worry not, we will be back as soon as we defeat him and the city isn't overtaken by demons. Thank you for your patronage! </p>
+
 </div>
-<a href="#welcome"><button class="back"id="top">Back to Top</button></a>
+<a href="#welcome"><button class="back"id="myButton">Back to Top</button></a>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 <footer>
   <a href="https://www.google.com/maps/place/CAPCOM+STORE+TOKYO/@35.1782598,134.9648443,7z/data=!3m1!5s0x60188ca91d999a73:0x2b00204155c6fa83!4m10!1m2!2m1!1scapcom+japan+store!3m6!1s0x60188d939074fcb7:0x35456936ab75d5fd!8m2!3d35.6619523!4d139.6989013!15sChJjYXBjb20gamFwYW4gc3RvcmWSAQtob2JieV9zdG9yZeABAA!16s%2Fg%2F11j3xfv3_m?entry=ttu&g_ep=EgoyMDI1MTAyOC4wIKXMDSoASAFQAw%3D%3D">DMC HQ: 666 S Devil Drive, Greater Redgrave City</a>
   <a href="https://github.com/fryebias/devilmaycry"> Click here to see the code</a>

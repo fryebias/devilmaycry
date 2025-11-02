@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=TASA+Orbiter:wght@400..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=TASA+Orbiter:wght@400..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 a{
     text-decoration: none;
@@ -11,7 +13,6 @@ a{
     justify-content: space-around;
     background-color: rgb(87, 4, 4);
     overflow: hidden;
-    background-size: cover;
 } 
 
 body{
@@ -35,16 +36,13 @@ marquee{
     padding-left: 10px;
     color:white;
 text-shadow:
-            0 0 5px #fff, /* Inner white glow */
-            0 0 10px #e8233a, /* Outer glow layer 1 (magenta) */
-            0 0 20px #e8233a, /* Outer glow layer 2 (magenta) */
-            0 0 30px #e8233a; /* Outer glow layer 3 (magenta) */
+ 0 0 5px #fff, 
+  0 0 10px #e8233a, 
+   0 0 20px #e8233a, 
+ 0 0 30px #e8233a; 
 }
 
-.nav:hover {
-  background-color: darkred;
-  color: black;
-}
+
 
 .reg{
     color:#fff;
@@ -86,10 +84,10 @@ padding:12px;
     font-size: 70px;
     color:white;
 text-shadow:
-            0 0 5px #fff, /* Inner white glow */
-            0 0 10px #e8233a, 
-            0 0 20px #e8233a, 
-            0 0 30px #e8233a; 
+ 0 0 5px #fff, 
+  0 0 10px #e8233a, 
+   0 0 20px #e8233a, 
+ 0 0 30px #e8233a; 
   display:flex;
   justify-content:center;
 }
@@ -101,21 +99,12 @@ text-shadow:
 }
 
 .eotm{
-  border-style:groove;
-  border-width: 9px;
-  border-color:rgb(227, 203, 67);
+  border-style:solid;
+  border-width: 5px;
+  border-color:rgb(105, 0, 0)
  
 }
 
-.imageflex img{
-  width:200px;
-  display:flex;
-  justify-content:flex-start;
-  justify-content: space-between;
-  margin:50px;
-    max-width: 100%;
-  max-height:100%;
-}
 
 
 
@@ -123,23 +112,11 @@ text-shadow:
 color:black;
 }
 
-.imageflex p{
-font-size: 20px;
-  padding-left: 20px;
-  margin-left: 10px;
-  margin-top:0px;
-  padding-left:10px;
-  font-family: Quantico;
-  font-size:30px;
-  text-shadow:
-            0 0 5px #fff, 
-            0 0 10px #e8233a, 
-            0 0 20px #e8233a, 
-            0 0 30px #e8233a; 
-}
 
-.nav:hover{
-  color:#080808;
+
+.reg:hover{
+  background-color:#3f0101;
+  font-size:22px;
 }
 
 .back{
@@ -148,9 +125,11 @@ font-size: 20px;
   bottom: 20px;
   right: 20px;
   z-index: 1000;
+ 
   
 
 }
+
 footer{
   padding:20px;
   background-color:#6e0606;
@@ -158,6 +137,7 @@ footer{
   text-decoration: none;
   display:flex;
   justify-content: center;
+ 
 }
  html, body {
         margin: 0;
@@ -193,29 +173,13 @@ footer{
     margin:20px;
   }
 
-
-.side{
-  display: inline-block;
-  vertical-align: top;
+.dante{
+  float:left;
 }
 
-body:before {
-content: " ";
-height: 100vh;
-width: 100vw;
-display: block;
-position: fixed; 
-top: 0; 
-left: 0; 
-z-index: 100;
-background-image: url(https://i.postimg.cc/sgGfqCdM/dmc1-intro.gif);
-background-size: cover;
-background-repeat: no-repeat;
-background-position:center;
-animation: yourAnimation 8s ease 1s 1 normal forwards;
-pointer-events: none;}
-@keyframes yourAnimation { 0.0%{ opacity: 1;} 75%{ opacity: 1; } 100%{ opacity: 0;}
-} 
+.side{
+padding-top:20px;
+}
 
 i{
   font-size:10px;
@@ -233,3 +197,103 @@ i{
   height: 100%;
   object-fit: cover;
 }
+
+p{
+  margin:10px;
+  font-size: 15px;
+  font-family:Roboto Slab;
+}
+
+.review{
+  background-color:rgb(225, 225, 225);
+  padding:20px;
+width:400px;
+}
+
+.reviewcont{
+  display:flex;
+  margin:5px;
+  padding:10px;
+  justify-content:space-around;
+  gap: 20px;
+}
+
+.review:hover{
+  background-color:rgb(206, 206, 206);
+}
+
+.bodies h2{
+  font-family: Quantico;
+  display:flex;
+  justify-content:center;
+}
+
+.bodies h3{
+font-family: Quantico;
+display:flex;
+justify-content:center;
+}
+
+.service{
+  background-color: rgb(236, 236, 236);
+  padding:20px;
+}
+
+.servicecont{
+  display:grid;
+  gap:20px;
+}
+
+.service button{
+float:right;
+padding:15px;
+}
+
+.workcont img{
+  width:100px;
+  height:auto;
+  display:block;
+  margin:auto;
+  border-radius:100px;
+ 
+}
+
+.workcont{
+   display:flex;
+  margin:10px;
+  padding:10px;
+  justify-content:space-around;
+  gap:10px;
+ 
+}
+
+.work{
+  background-color:rgb(225, 225, 225);
+padding:10px;
+border-radius:10px;
+width:250px;
+ transition: all 0.2s ease-out;
+}
+.workcont h3{
+padding:10px;
+padding-top:5px;
+padding-bottom:5px;
+font-family: Quantico;
+display:flex;
+justify-content: center;
+
+}
+
+.workcont h4{
+  font-family:Roboto Slab;
+  display:flex;
+  justify-content:center;
+}
+
+.work:hover{
+  background-color:rgb(206, 206, 206);
+  width:255px;
+  height:auto;
+   transition: all 0.2s ease-in;
+}
+
